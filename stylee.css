@@ -1,0 +1,60 @@
+body {
+      background-color: #937a62; /* Warna coklat estetik */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-container {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 40px; /* Ubah padding menjadi 40px */
+      border-radius: 10px;
+      width: 400px; /* Ubah lebar menjadi 400px */
+      text-align: center;
+    }
+
+    .login-container h1 {
+      color: #4f3011; /* Warna font coklat estetik */
+    }
+    .login-container input {
+      width: 100%;
+      padding: 10px 40px 10px 10px; /* Add padding for the icon */
+      margin-bottom: 15px; /* Adjusted margin between password and button */
+      border: 1px solid #4f3011; /* Warna border coklat estetik */
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #4f3011; /* Warna tombol coklat estetik */
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .login-container button:hover {
+      background-color: #4f3011; /* Warna tombol hover coklat lebih tua */
+    }
+    .login-container button:active {
+      background-color: #937a62; /* Warna tombol saat ditekan */
+    }
+    .login-container img {
+      width: 200px; /* Sesuaikan ukuran gambar */
+      height: 200px; /* Sesuaikan ukuran gambar */
+      margin-bottom: 10px; /* Sesuaikan margin agar lebih proporsional */
+      object-fit: contain; /* Tambahkan object-fit agar gambar tidak terlihat gepeng */
+    }
+    /* ... other styles ... */
+
+    .login-container input {
+      /* ... other styles ... */
+      margin-bottom: 15px; /* Adjusted margin between password and other elements */
+    }
+
+    .login-container button {
+      /* ... other styles ... */
+      margin-top: 15px; /* Add margin between password and button */
+    }
